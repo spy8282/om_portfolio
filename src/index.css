@@ -1,0 +1,9 @@
+/* Tailwind v4 loads all layers from this single import */
+@import "tailwindcss";
+
+/* probe block to verify CSS is loading */
+.probe {
+  width: 40px;
+  height: 40px;
+  background: lime;
+}
